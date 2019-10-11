@@ -1,0 +1,12 @@
+.Logo {
+    background-image: url(../favicon-32x32.png);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding: 32px;
+  }
+
+  img{
+    display:block;
+    margin:auto;
+    }

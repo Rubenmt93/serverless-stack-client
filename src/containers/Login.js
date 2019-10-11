@@ -4,6 +4,7 @@ import { FormGroup, FormControl, ControlLabel } from "react-bootstrap";
 import LoaderButton from "../components/LoaderButton";
 import { useFormFields } from "../libs/hooksLib";
 import "./Login.css";
+import Logo   from '../components/Logo';
 
 export default function Login(props) {
   const [isLoading, setIsLoading] = useState(false);
@@ -34,6 +35,10 @@ export default function Login(props) {
 
   return (
     <div className="Login">
+      <div>
+         
+         <Logo />
+          </div>
       <form onSubmit={handleSubmit}>
         <FormGroup controlId="email" bsSize="large">
           <ControlLabel>Email</ControlLabel>

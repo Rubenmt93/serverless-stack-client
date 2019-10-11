@@ -8,7 +8,7 @@ import { s3Upload } from "../libs/awsLib";
 
 export default function Notes(props) {
 
-    const file = useRef(null);
+  const file = useRef(null);
    const [note, setNote] = useState(null);
    const [content, setContent] = useState("");
    const [isLoading, setIsLoading] = useState(false);
@@ -132,7 +132,7 @@ export default function Notes(props) {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href={note.attachmentURL}
+                      href={note.attachmentURL} 
                     >
                       {formatFilename(note.attachment)}
                     </a>
