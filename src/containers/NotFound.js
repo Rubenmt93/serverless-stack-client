@@ -4,7 +4,7 @@ import "./NotFound.css";
 export default function NotFound() {
   return (
     <div className="NotFound">
-       <p >404</p>
+       <p className="E404">404</p>
       <h3>Sorry, page not found!</h3>
     </div>
   );
